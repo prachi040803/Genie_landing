@@ -1,0 +1,140 @@
+.cta {
+  padding: 5rem 0; /* 80px */
+  position: relative;
+}
+
+.cta-content {
+  margin: auto;
+  max-width: 57.625rem; /* 921px */
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-content__left {
+  max-width: 31.125rem; /* 498px */
+}
+
+.h3.cta__heading {
+  color: #500000;
+  margin-top: 2.625rem; /* 42px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+.text-reg.cta__description {
+  color: var(--accent);
+  margin-bottom: 3rem; /* 48px */
+}
+
+.cta__button {
+  padding: 1rem 2.5rem; /* 16px 40px */
+  display: flex;
+  align-items: center;
+  column-gap: 1rem; /* 16px */
+  border-radius: 0.5rem; /* 8px */
+  border: none;
+  background: var(--gradient);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.cta__button:hover {
+  scale: 1.01;
+}
+
+.cta__button-text {
+  font-family: "DM Sans";
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.25rem; /* 20px */
+  color: var(--primary-300);
+}
+
+.cta__button-icon {
+  height: 2rem; /* 32px */
+  width: 2rem; /* 32px */
+  box-sizing: border-box;
+  border: 1px solid var(--primary-300);
+  border-radius: 0.5rem; /* 8px */
+}
+
+.cta__circle-gradient {
+  position: absolute;
+  top: -15.625rem; /* -250px */
+}
+
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f5f5;
+}
+
+.text-large {
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-reg {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-med {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-small {
+  font-family: "DM Sans";
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0px;
+}
+
+.text-tiny {
+  font-family: "DM Sans";
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.h1 {
+  font-family: "DM Sans";
+  font-size: 56px;
+  line-height: 106%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h2 {
+  font-family: "DM Sans";
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h3 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}
+
+.h5 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}

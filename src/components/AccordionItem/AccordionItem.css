@@ -1,0 +1,139 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f5f5;
+}
+
+.text-large {
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-reg {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-med {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-small {
+  font-family: "DM Sans";
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0px;
+}
+
+.text-tiny {
+  font-family: "DM Sans";
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.h1 {
+  font-family: "DM Sans";
+  font-size: 56px;
+  line-height: 106%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h2 {
+  font-family: "DM Sans";
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h3 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}
+
+.h5 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}
+
+
+.accordion-item {
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.accordion-item__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9375rem 1.875rem; /* 15px 30px */
+  width: 100%;
+  border: 1px solid var(--secondary-200);
+  background-color: transparent;
+  border-radius: 0.5rem; /* 8px */
+  cursor: pointer;
+}
+
+.accordion-item__question {
+  margin: 0;
+  color: var(--primary-100);
+}
+
+.accordion-icon {
+  width: 2rem; /* 32px */
+  height: 2rem; /* 32px */
+  border-radius: 0.5rem; /* 8px */
+  box-sizing: border-box;
+  border: 1px solid var(--secondary-200);
+}
+
+.accordion-item__answer {
+  max-height: 0;
+  visibility: hidden;
+  opacity: 0;
+  outline: none;
+  background-color: var(--secondary-50);
+  border: 1px solid var(--secondary-200);
+  border-radius: 1rem; /* 16px */
+  transition: max-height 0.4s ease-in-out, visibility 0.2s ease-in-out,
+    opacity 0.2s ease-in-out, margin 0.4s ease-in-out;
+}
+
+.accordion-item__answer.visible {
+  max-height: 12.5rem; /* 200px */
+  visibility: visible;
+  margin-top: 1.25rem; /* 20px */
+  opacity: 1;
+}
+
+.accordion-item__heading-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  max-width: calc(100% - 3.75rem); /* 60px */
+  margin-bottom: 0.9375rem; /* 15px */
+  margin-top: 1.25rem; /* 20px */
+  margin-left: 1.875rem; /* 30px */
+}
+
+.text-reg.accordion-item__answer-description {
+  max-width: calc(100% - 7.375rem); /* 118px */
+  margin-bottom: 1.875rem; /* 30px */
+  margin-left: 1.875rem; /* 30px */
+}
